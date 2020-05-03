@@ -1,0 +1,137 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f5f8fa;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    padding-top: 3rem;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px 0 rgba(128, 128, 128, 0.2), 0 3px 10px 0 rgba(128, 128, 128, 0.19);
+    margin-bottom: 5rem;
+}
+
+.navbar-brand {
+    font-family: 'Josefin Slab', serif;
+    font-size: 30px;
+}
+
+.active {
+    border-bottom: 1px solid #f5f8fa;
+}
+
+.container {
+    top: 100%;
+}
+
+.cardheader {
+    background: url("https://images.pexels.com/photos/96931/pexels-photo-96931.jpeg?cs=srgb&dl=agriculture-black-and-white-countryside-culture-96931.jpg&fm=jpg");
+    background-size: cover;
+    height: 135px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom: 5px solid #196F3D;
+}
+
+.avatar {
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+}
+
+.avatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    background-color: #f5f8fa;
+    box-shadow: 0 2px 4px 0 rgba(128, 128, 128, 0.2), 0 3px 10px 0 rgba(128, 128, 128, 0.19);
+}
+
+.profile-footer a {
+    color: #6e6e6e;
+}
+
+.profile-footer a:hover {
+    color: #2b2b2b;
+}
+
+.info-card {
+    border-top: 3px solid #0000FF;
+}
+
+.interests-card {
+    border-top: 3px solid teal;
+}
+
+.main-card {
+    border-top: 3px solid #D4AF37;
+}
+
+div.card {
+    box-shadow: 0 2px 4px 0 rgba(128, 128, 128, 0.2), 0 3px 10px 0 rgba(128, 128, 128, 0.19);
+}
+
+.project-card {
+    position: relative;
+}
+
+.project-image {
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.project-text {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.project-card:hover .project-image {
+    opacity: 0.3;
+}
+
+.project-card:hover .project-text {
+    opacity: 1;
+}
+
+#contact {
+    border-top: 3px solid #686868;
+}
+
+.mail-image {
+    background-color: #686868;
+}
+
+.form-group input, .form-group textarea {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.footer-card {
+    border-top: 3px solid #434396;
+}
+
+#scroll-top-btn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 100px; /* Place the button at the bottom of the page */
+    right: 35px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    font-size: 18px; /* Increase font size */
+}
